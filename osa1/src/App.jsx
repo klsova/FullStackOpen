@@ -9,9 +9,9 @@ const Header = (props) => {
 const Content = (props) => {
   console.log(props)
   return (
-    <p>
+    <div>
       {props.part} {props.exercises}
-    </p>
+    </div>
   )
 }
 const Total = (props) => {
